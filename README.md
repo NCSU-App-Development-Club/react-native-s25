@@ -28,20 +28,32 @@ git clone git@github.com:NCSU-App-Development-Club/react-native-s25.git
 cd react-native-s25
 ```
 
-2. Create a new branch: `git checkout -b <first name-last name>` (for example, `Abel Lu` would create a branch called `abel-lu` by running `git checkout -b abel-lu`)
+2. Create a new branch:
 
-3. Export your Figma design--go to the right menu, which should have an `Export` section, and click `Export <your design name>`--add it to the `counter-wireframes` directory on your local version of the repo, then rename it to `your-name.png` (with your full name; same format as the branch name, like `abel-lu.png`)
+   ```bash
+   git checkout -b <firstName-lastName>
+   ```
+   
+   (for example, `Abel Lu` would create a branch called `abel-lu` by running `git checkout -b abel-lu`)
+   
+3. Push the new branch by running:
+
+   ```bash
+   git push --set-upstream origin <firstName-lastName>
+   ```
+
+4. Export your Figma design--go to the right menu, which should have an `Export` section, and click `Export <your design name>`--add it to the `counter-wireframes` directory on your local version of the repo, then rename it to `your-name.png` (with your full name; same format as the branch name, like `abel-lu.png`)
 
 ![figma export menu](assets/figma-export.png)
 
-4. Stage and commit your changes, then push to the GitHub repository (you can replace the commit message `my design` with whatever you want, and branch-name will be your name, ex. `abel-lu`):
+5. Stage and commit your changes, then push to the GitHub repository (you can replace the commit message `my design` with whatever you want, and branch-name will be your name, ex. `abel-lu`):
 
 ```bash
 git add .
 git commit -m "my design"
-git push origin <branch-name>
+git push
 ```
 
-5. Open a Pull Request on GitHub: go to the `Pull requests` tab, click `New pull request`, ensure that the `base` branch is `main` and the `compare` branch is the branch you created (e.g. `abel-lu`), and click `Create pull request`. Finally, click `Create pull request` again on this page.
+6. Open a Pull Request on GitHub: go to the `Pull requests` tab, click `New pull request`, ensure that the `base` branch is `main` and the `compare` branch is the branch you created (e.g. `abel-lu`), and click `Create pull request`. Finally, click `Create pull request` again on this page.
 
 ![pull request creation example](assets/pull-request-ex.png)
