@@ -19,7 +19,7 @@ Achieve this design using using only assets from the "iOS and iPadOS 18" and "Ma
 
 An example can be found here: https://tallycount.app/
 
-When you are finished, add it to this repo in the `counter-wireframes` folder by doing the following:
+When you are finished, add it to this repo in the `counter-designs` folder by doing the following:
 
 1. Clone the repo to your local machine:
 
@@ -30,7 +30,7 @@ cd react-native-s25
 
 2. Create a new branch: `git checkout -b <first name-last name>` (for example, `Abel Lu` would create a branch called `abel-lu` by running `git checkout -b abel-lu`)
 
-3. Export your Figma design--go to the right menu, which should have an `Export` section, and click `Export <your design name>`--add it to the `counter-wireframes` directory on your local version of the repo, then rename it to `your-name.png` (with your full name; same format as the branch name, like `abel-lu.png`)
+3. Export your Figma design--go to the right menu, which should have an `Export` section, and click `Export <your design name>`--add it to the `counter-designs` directory on your local version of the repo, then rename it to `your-name.png` (with your full name; same format as the branch name, like `abel-lu.png`)
 
 ![figma export menu](assets/figma-export.png)
 
