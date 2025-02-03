@@ -1,18 +1,6 @@
-# ncsuguessr
+# Counter App Assignment
 
-ncsuguessr is a North Carolina State University-themed geography game inspired by GeoGuessr. Test your knowledge of the NC State campus as you guess locations based on images and landmarks.
-
-## Features
-
-- Explore and guess iconic NC State landmarks.
-- Test your knowledge of the campus layout.
-- Contribute photos to be featured in future puzzles.
-
-## Game Rules
-
-- Each day, you'll be shown a random location from the NC State campus.
-- Guess the correct location by placing a marker on the map.
-- Earn points based on accuracy—the closer your guess, the higher your score.
+You will implement your counter app designs here.
 
 ## Prerequisites
 
@@ -34,11 +22,11 @@ Optional VSCode Extensions:
 
 ## Setup
 
-1. Clone the repository:
+1. Pull the latest changes from this repository and navigate to the `counter-implementations` directory:
 
    ```bash
-   git clone https://github.com/NCSU-App-Development-Club/ncsuguessr.git
-   cd ncsuguessr
+   git pull
+   cd counter-implementations
    ```
 
 2. Install and use Node.js version 22.9.0 with nvm:
@@ -63,22 +51,25 @@ Optional VSCode Extensions:
 
 5. Scan the QR code in the terminal with your phone.
 
-## Contribution - App Development Club Members Only
+## Instructions
 
-You and your small group will be assigned [issues](https://github.com/NCSU-App-Development-Club/ncsuguessr/issues) to work on as a team. For each issue, do the following:
+Individually, you will create a working implementation of the counter app you designed last week.
+To accomplish this, do the following:
 
-1. Create a new branch from the development branch:
+1. Create a new branch from the main branch, matching the given format:
    ```bash
-   git checkout development
-   git checkout -b <feature-branch-name>
+   git checkout main
+   git checkout -b <firstName-lastName-counter-impl>
    ```
 2. Push your new branch:
    ```bash
-   git push --set-upstream origin <feature-branch-name>
+   git push --set-upstream origin <firstName-lastName-counter-impl>
    ```
-3. Work on your new branch as usual.
-4. When your branch is ready for review, open a Pull Request.
+3. Build your counter app (help resources are below).
+4. When your counter app is ready for review, open a Pull Request.
 
----
+## Resources
 
-Wolfpack up and test your campus knowledge with **ncsuguessr**! Go Pack!
+- Custom buttons: https://reactnative.dev/docs/pressable
+- Handling state: https://reactnative.dev/docs/intro-react#state
+- Styling: https://tailwindcss.com/
