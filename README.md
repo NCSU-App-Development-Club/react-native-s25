@@ -1,5 +1,9 @@
 # Member To-do List
 
+## February 4, 2025 Meeting
+
+- [Link](https://github.com/NCSU-App-Development-Club/react-native-s25/tree/counter-impl-assignment/counter-implementations#counter-app-assignment)
+
 ## January 28, 2025 Meeting
 
 ### Setup
